@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Hero_bg_image
+{
+    background-image: url(../../public/hewo.jpg);
+}
+.promo_1
+{
+    background-image: url(../../public/1/promo1.jpg);
+}
