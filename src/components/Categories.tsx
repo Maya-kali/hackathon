@@ -68,10 +68,10 @@ const Categories = () => {
             className='group-hover:scale-125 duration-500 rounded-xl'/>
 
             <div className='hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-0 text-3xl text-white text-center font-bold bg-black/70 w-full'>
-                <h1 className='uppercase '>Kid's</h1>
+                <h1 className='uppercase'>Kids</h1>
             </div>
             <div className='block  lg:hidden absolute bottom-28 duration-500 group-hover:bottom-0 text-3xl text-white text-center font-bold bg-black/70 w-full'>
-                <h1 className='uppercase '>Kid's</h1>
+                <h1 className='uppercase'>Kids</h1>
             </div>
             </Link>
         </div>
