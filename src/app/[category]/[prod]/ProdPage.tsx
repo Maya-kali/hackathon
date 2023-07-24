@@ -7,8 +7,8 @@ import { useAppSelector } from '../../store/hooks';
 
 const ProdPage = ({params}:{params:{prod:string}}) => {
     const product = useAppSelector((state)=>state.products)
-    const prod = product.filter((val) => val.prod == params.prod);
-    console.log("abc",prod)
+    // const prod = product.filter((val) => val.prod == params.prod);
+    // console.log("abc",prod)
   return (
     <div><div className="container px-5 py-24 mx-auto">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">

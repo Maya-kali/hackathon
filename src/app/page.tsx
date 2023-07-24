@@ -1,4 +1,5 @@
-import Categories from '@/components/Categories'
+// import Categories from '@/components/Categories1'
+import Categories2 from '@/components/Categories2'
 import FeatureProducts from '@/components/FeatureProducts'
 import Hero from '@/components/Hero'
 import Promotion from '@/components/Promotion'
@@ -13,8 +14,9 @@ export default function Home() {
       <FeatureProducts />
       <Services />
       <Promotion /> 
-      <Categories />
-      <Selling />
+      {/* <Categories /> */}
+      <Categories2/>     
+         <Selling />
       </div>
   )
 }
